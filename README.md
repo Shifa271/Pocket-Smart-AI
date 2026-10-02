@@ -61,7 +61,7 @@ API docs: http://127.0.0.1:8000/docs
 ```bash
 pytest -q
 ```
-
+ 
 ## Main endpoints
 - `GET /health`
 - `POST /register`
@@ -77,3 +77,4 @@ pytest -q
 
 ## Production hardening
 Use HTTPS, a strong secret, PostgreSQL, rate limiting, CSRF protection where appropriate, managed secret storage, image scanning/storage, and authorized product/vendor APIs before public deployment.
+  
